@@ -1,67 +1,77 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100');
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
 body {
     margin: 0;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 100;
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
+
+
 
 .container {
     width: 75%;
     margin: 0 auto;
-    padding-top: 7px;
+    padding-top: 5px;
+}
+p{
+   color: aliceblue;
+   align-self: auto;
+   padding-left: 60px;
 }
 
-header {
-    background-color: rgb(51, 51, 51);
-    width: 100%;
-    height: 43px;
-}
+// header {
+//     background-color: rgb(51, 51, 51);
+//     width: 100%;
+//     height: 43px;
+// }
 
-#logo {
-    color: white;
-    font-size: 22px;
-    position: absolute;
-    top: 8px;
-    left: -11%;
-    float: left;
-    margin-top: -9px;
- 
-}
+// #logo {
+//     color: white;
+//     top: 8px;
+//     margin-top:-3px;
+//     padding-left: 130px;
+// }
 
-#logo:hover {
-    cursor: pointer;
-    opacity: .6;
-    transition: .3s;
-}
+// #logo:hover {
+//     cursor: pointer;
+//     opacity: .6;
+//     transition: .3s;
+// }
 
-.nav-link-apple{
-    width: 1.6rem;
-    height: 2.2rem;
-    background: url("../assets/images/apple.svg");
-}
+// .nav-link-apple{
+//     width: 1.6rem;
+//     height: 2.2rem;
+//     background: url("../assets/images/apple.svg");
+// }
 
-nav {
-    position: absolute;
-    left: 19%;
-    margin-top: 4px;
-}
+// nav {
+//     position: absolute;
+//     left: 19%;
+//     margin-top: 4px;
+// }
 
+// nav a {
+//     text-decoration: none;
+//     color: white;
+//     margin-right: 70px;
+//     font-size: 18px;
+    
+// }
 nav a {
     text-decoration: none;
     color: white;
-    margin-right: 70px;
-    font-size: 18px;
+    align-content: center;
 }
 
-nav a:hover {
-    opacity: .5;
-    transition: .3s;
-}
+// nav a:hover {
+//     opacity: .5;
+//     transition: .3s;
+// }
 
-.right {
-    float: right;
-}
+// .right {
+//     float: right;
+// }
+
 
 #search {
     position: absolute;
@@ -89,9 +99,14 @@ nav a:hover {
     cursor: pointer;
 }
 
-.banner {
-    width: 100%;
-    height: 585px;
-    background-position: center;
-    background-size: cover;
+// .banner {
+//     width: 100%;
+//     height: 585px;
+//     background-position: center;
+//     background-size: cover;
+// }
+nav p a {
+    text-decoration: none;
+    color: blue;
 }
+
